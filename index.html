@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BUDGET APP</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./IMAGES/ic_launcher (14).png">
+    <link rel="apple-touch-icon" href="./IMAGES/ic_launcher (14) (2).png">
+    <meta name="apple-mobile-web-app-status-bar" content="blue">
+    <meta name="theme-color" content="blue">
+</head>
+<body>
+    <div class="nav">
+        <img src="./IMAGES/animated-animal-image-0021.gif" alt="">
+        <h1>BUDGET APP</h1>
+    </div>
+    <div class="wrapper1">
+        <form  id="cal" action="POST">
+            <h3>Enter Your Budget Amount</h3>
+            <input  type="number" required>
+            <button>Calculate</button>
+        </form>
+    </div>
+
+    <div class="h2">
+    	<div class="first"><h2>SH 0.00</h2></div>
+    	<div class="sec"><h2>SH 0.00</h2></div>
+    	<div class="three"><h2>SH 0.00</h2></div>
+    </div>
+
+    <div class="wrapper5">
+        <div class="budget">
+         <h3>TOTAL BUDGET</h3>
+         <img src="./IMAGES/icons8-sign-up-100.png" alt="">
+        </div>
+
+        <div class="expenses">
+         <h3> TOTAL EXPENSES</h3>
+         <img src="./IMAGES/basket.png" alt="">
+        </div>
+
+        <div class="balance">
+        <h3> TOTAL BALANCE</h3>
+         <img src="./IMAGES/icons8-up-down-arrow-100.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="wrapper2">
+       <form id="exp">
+        <h3>Enter Expense Name</h3>
+        <input type="text" required>
+
+        <h3>Enter Expense Amount</h3>
+        <input  type="number" required>
+        <h4>Double Click To Add & To Refresh After Deleting</h4>
+        <button>Add Expense</button>
+       </form>
+        
+    </div>
+
+    <div class="wrapper3">
+        <h3>Expense Name</h3>
+        <h2>Expense Amount</h2>
+
+        <div class="list2" >
+
+        </div>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./service.js"></script>
+</body>
+</html>

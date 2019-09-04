@@ -1,0 +1,566 @@
+body{
+background:url(./IMAGES/africa-15428_1920.jpg);
+background-attachment:fixed;
+background-size: cover;
+color: white;
+}
+
+.nav{
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav img{
+    padding: 0;
+    width:7%;
+    height: 10%;
+    margin-top:20px; 
+    margin-right: -55px;
+}
+
+h1{
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 40px;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.h2{
+ display: flex;
+ position: absolute;
+ margin-left: 560px;
+ margin-top: -90px;
+ font-size: 25px;
+}
+
+
+.first h2{
+    width: 270px;
+    color: red;
+}
+
+.sec h2{
+    width: 270px;
+    color: yellow;
+}
+
+.three h2{
+    color:red;
+}
+
+.wrapper1{
+    margin-top:5px;
+    border: 5px solid yellow;
+    border-radius:30px 0;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.wrapper2{
+    border: 5px solid yellow;
+    border-radius:30px 0;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    height:48.5vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height:5vh;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.wrapper2 input{
+  margin-top: -10px;
+}
+
+.wrapper2 button{
+  margin-top: 0px;
+}
+
+.wrapper2 h4{
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+button{
+    height: 6vh;
+    width: 150px;
+    margin: 12px;
+    border:transparent;
+    border-radius: 20px;
+    background: rgb(255, 251, 4);
+    font-size: 20px;
+}
+
+button:hover{
+    width:180px;
+    transition: 0.5s; 
+    cursor:pointer;
+}
+
+
+.wrapper1 h3,.wrapper2 h3{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.wrapper5{
+    display: flex;
+    float: right;
+    margin-top: -210px;
+}
+
+.wrapper5 h3{
+    text-decoration: underline;
+}
+
+.wrapper3{
+    float: right;
+    display: flex;
+    margin-top: -330px;
+    margin-right: 270px;
+}
+
+.wrapper3 h3{
+    margin-left: 150px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.wrapper3 h2{
+  margin-top: 25px;
+    margin-left: 150px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.budget{
+    margin-right: 130px;
+}
+
+.budget img{
+    margin-left: 30px;
+    width: 50%;
+}
+
+.expenses{
+    margin-right: 90px;
+}
+.expenses img{
+    margin-left: 30px;
+    margin-top: -3px;
+    width: 40%;
+}
+
+.balance{
+    margin-right:70px;
+}
+
+.balance img{
+   margin-left: 20px;
+   margin-top: 10px;
+   width:40%;
+}
+
+.list2{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 22px;
+    color: yellow;
+}
+
+.list2 ul{
+  display: flex;
+
+}
+
+.list2 li{
+    min-width: 300px;
+    margin-top: -17px;
+    list-style-type:disc;
+    color: red;
+
+}
+
+.list2 span{
+  min-width: 300px;
+  margin-top: -17px;
+}
+
+.list2  cite{ 
+  max-width: 70px;
+  margin-top: -17px;
+  border: 3px solid blue;
+  border-radius:0 10px;
+  padding:0 5px;
+  color: black;
+  font-size: 16px;
+  background: red;
+}
+
+  .list2  cite:hover{
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:1024px){
+  h1{
+    margin-top: 15px;
+    padding-left: 10px;
+  }  
+  .nav img{
+      width: 10%;
+  }
+
+  .wrapper5{
+      position:absolute;
+      margin-top: -230px;
+      margin-left: 350px;
+      margin-right: -50px;
+  }
+
+  .wrapper1{
+    margin-left: 4px;
+    width: 30%;
+  }
+
+.wrapper3{
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+
+ .wrapper2{
+      position: relative;
+      margin-left: 5px;
+      margin-top: 50px;
+      height: 45vh;
+  }
+
+ .h2{
+      margin-top:-100px;
+      margin-left:300px;
+      font-size: 18px;
+  }
+
+  .first{
+    margin-left: 50px;
+  }
+
+  .sec{
+    margin-left: -20px;
+  }
+
+  .three{
+    margin-left: -30px;
+  }
+
+  .wrapper3{
+      margin-top:-380px;
+      margin-right: 60px;
+  }
+
+  .wrapper3 h3,h2{
+
+  }
+
+  .list2 span{
+  min-width: 130px;
+
+}
+
+
+
+@media(max-width:500px){
+  
+    h1{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+  }  
+  .nav img{
+      width: 20%;
+  }
+
+  .wrapper5{
+      width: 58%;
+      display:flex;
+      flex-direction: column;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 95px;
+  }
+
+  .budget{
+      margin-top: 20px;
+      margin-right: 10px;
+  }
+  .budget img{
+    width: 30%;
+    padding-left: 20px;
+  }
+
+  .first{
+   margin-top: 30px;
+   margin-left: 280px;
+   font-size: 20px;
+  }
+
+  .sec{
+   margin-top: 80px;
+   margin-left: 280px;
+   font-size: 20px;
+  }
+
+  .three{
+   margin-top: 80px;
+   margin-left: 280px;
+   font-size: 20px;
+  }
+  
+
+
+  .expenses{
+      margin-top: 60px;
+      margin-right: 10px;
+  }
+
+  .expenses img{
+      width: 20%;
+      padding-left: 20px;
+  }
+
+  .balance{
+      margin-top: 50px;
+      margin-right: 10px;
+  }
+
+  .balance img{
+      width: 20%;
+      padding-left: 30px;
+  }
+
+.wrapper3{
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+ .wrapper1{
+  margin-left:5px;   
+  width: 95%;
+  height: 35vh;
+
+ }
+
+
+ .wrapper2{
+     margin-left: 5px;
+      width: 92%;
+      position: absolute;
+      margin-top: 600px;
+      height: 54vh;
+  }
+
+ .h2{
+      display: flex;
+      flex-direction: column;
+      margin-top:130px;
+      margin-left:-160px;
+  }
+
+  .wrapper3{
+      margin-top:950px;
+      display: flex;
+  }
+
+  .wrapper3 h3{
+      display:flex;
+      font-size: 22px;
+      width: 51.5%;
+      margin-left: 5px;
+      margin-right:-150px;
+  }
+
+  .wrapper3 h2{
+      width:70.5%;
+      text-decoration: underline;
+      font-size: 20px;
+      margin-top: 22px;
+      margin-right:50px;
+  }
+
+  
+  .list2{
+      font-size: 18px;
+      margin-left:-15px;
+      margin-right: 0px;
+  }
+
+  .list2 li{
+  min-width: 100px;
+
+}
+
+  .list2 span{
+  min-width: 140px;
+
+}
+
+ .list2 ul{
+   margin-top:30px;
+}
+
+}
+
+
+
+
+
+@media(max-width:320px){
+
+  .wrapper5{
+        width: 50%;
+    }
+
+  .budget{
+      margin-top:10px;
+      margin-left:-25px;
+  }
+
+
+  .budget img{
+    width: 40%;
+    padding-left: 20px;
+  }
+
+  .first{
+   width: 10vh;
+   margin-top: 20px;
+   margin-left:250px;
+  }
+
+  .sec{
+   width:10vh;
+   margin-top: 75px;
+   margin-left:250px;
+  }
+
+  .three{
+   width: 50vh;
+   margin-top: 80px;
+   margin-left:250px;
+  }
+  
+
+
+  .expenses{
+      margin-top: 50px;
+      margin-right:10px;
+      margin-left: -25px;
+  }
+
+  .expenses img{
+      width: 30%;
+      padding-left: 20px;
+  }
+
+  .balance{
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-left: -25px;
+  }
+
+  .balance img{
+      width: 30%;
+      padding-left: 30px;
+  }
+
+.wrapper3{
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+ .wrapper1{
+  margin-left:3px;   
+  width: 95%;
+  height: 30vh;
+
+ }
+
+ .wrapper2{
+     margin-left: 1px;
+      width: 92%;
+      position: absolute;
+      margin-top: 550px;
+      height: 57vh;
+  }
+
+ .h2{
+      width:10vh; 
+      display: flex;
+      flex-direction: column;
+      margin-top:130px;
+  }
+
+  .wrapper3{
+      margin-top:900px;
+      display: flex;
+  }
+
+  .wrapper3 h3{
+      display:flex;
+      font-size: 17px;
+      width:70%;
+      margin-left:10px;
+      margin-right:70px;
+  }
+
+  .wrapper3 h2{
+      width: 90%;
+      text-decoration: underline;
+      font-size: 17px;
+      margin-top: 20px;
+      margin-left:-30px;;
+      margin-right: 120px;
+  }
+
+  .list1{
+      margin-left: -20px;
+      font-size: 18px;
+      width: 60%;
+  }
+  
+  .list2{
+      font-size: 18px;
+      margin-left:-20px;
+      margin-right: 0px;
+  }
+
+.list2 span{
+  min-width: 100px;
+
+}
+
+
+
+}
